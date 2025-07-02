@@ -4,8 +4,9 @@ An intelligent resume screening web application built using **Python**, **Flask*
 It helps recruiters or HR teams upload resumes and screen candidates based on job roles and required skills using natural language processing (NLP) techniques.
 
 📷 Screenshots
-# Home page (SS1.png)
 
+![Home page](SS1.png)
+ 
 ## 🔍 Features
 
 - 📄 Upload resumes in `.pdf` or `.docx` format
