@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}Screening Results{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="card border-0 shadow">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                    <h3 class="mb-0"><i class="fas fa-chart-bar me-2"></i>Screening Results</h3>
+                    <div>
+                        <span class="badge bg-light text-dark fs-6">{{ results|length }} Candidates</span>
+                        <span class="badge bg-info ms-2">{{ algorithm }} Algorithm</span>
+                    </div>
+                </div>
+                <div class="card-body">
+                    {% if results %}
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Candidate</th>
+                                    <th>Match Score</th>
+                                    <th>Skills</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for result in results %}
+                                <tr class="resume-card">
+                                    <td class="fw-bold">{{ loop.index }}</td>
+                                    <td>{{ result.filename }}</td>
+                                    <td>
+                                        <div class="progress" style="height: 10px;">
+                                            <div class="progress-bar 
+                                                {% if result.score >= 0.8 %}bg-success
+                                                {% elif result.score >= 0.5 %}bg-warning
+                                                {% else %}bg-danger
+                                                {% endif %}" 
+                                                style="width: {{ result.score * 100 }}%">
+                                            </div>
+                                        </div>
+                                        {{ "%.1f"|format(result.score * 100) }}%
+                                    </td>
+                                    <td>
+                                        {% for skill in result.skills %}
+                                        <span class="badge bg-primary mb-1">{{ skill }}</span>
+                                        {% endfor %}
+                                    </td>
+                                    <td class="small">{{ result.details }}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    {% else %}
+                    <div class="alert alert-warning text-center py-4">
+                        <i class="fas fa-exclamation-triangle fa-3x mb-3"></i>
+                        <h4>No Results Found</h4>
+                        <p class="mb-0">Please check your input criteria and try again.</p>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

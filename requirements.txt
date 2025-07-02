@@ -1,0 +1,8 @@
+flask==3.0.2
+scikit-learn==1.5.0
+numpy>=2.0.0
+werkzeug==3.0.1
+python-dotenv==1.0.0
+python-docx==0.8.11
+pdfminer.six==20221105
+spacy==3.7.4
