@@ -40,7 +40,7 @@ resume-screener/
 ## 🧪 Installation (Local)
 
 -```bash
-git clone https://github.com/yourusername/resume-screener.git
+git clone https://github.com/Ayesha-Emaan/resume-screener.git
 cd resume-screener
 python -m venv venv
 venv\Scripts\activate     # On Windows
