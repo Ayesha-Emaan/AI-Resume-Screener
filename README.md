@@ -35,13 +35,18 @@ resume-screener/
 
 
 git clone https://github.com/Ayesha-Emaan/resume-screener.git
+
 cd resume-screener
+
 python -m venv venv
+
 venv\Scripts\activate     # On Windows
+
 pip install -r requirements.txt
+
 python app.py
 
-Open your browser: http://localhost:5501
+Open your browser
 
 🛠 Built With
 
