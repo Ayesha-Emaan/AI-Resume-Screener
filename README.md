@@ -3,7 +3,8 @@
 An intelligent resume screening web application built using **Python**, **Flask**, **HTML/CSS**, **JavaScript**, and **C#**.  
 It helps recruiters or HR teams upload resumes and screen candidates based on job roles and required skills using natural language processing (NLP) techniques.
 
----
+📷 Screenshots
+# Home page (SS1.png)
 
 ## 🔍 Features
 
@@ -14,13 +15,6 @@ It helps recruiters or HR teams upload resumes and screen candidates based on jo
 - 🖥️ Responsive web interface with **HTML, CSS, JavaScript**
 - 🧰 Backend built in **Flask (Python)**
 
----
-
-## 🚀 Live Demo
-
-🔗 Live Demo: 
-
----
 
 ## 📁 Project Structure
 resume-screener/
@@ -36,10 +30,9 @@ resume-screener/
 └── uploads/ # Temporarily stores uploaded resumes
 
 
-
 ## 🧪 Installation (Local)
 
--```bash
+
 git clone https://github.com/Ayesha-Emaan/resume-screener.git
 cd resume-screener
 python -m venv venv
@@ -58,8 +51,10 @@ HTML5
 CSS3
 JavaScript
 
-📷 Screenshots
-# Home page (SS1.png)
+📬 Contact
+Ayesha Emaan
+💼 Web Developer | Python Developer
+📧 emaanayesha50@gmail.com
 
 📬 Contact
 Ayesha Emaan
