@@ -44,15 +44,25 @@ python app.py
 Open your browser: http://localhost:5501
 
 🛠 Built With
+
 Python
+
 Flask
+
 Scikit-learn
+
 Spacy
+
 HTML5
+
 CSS3
+
 JavaScript
 
 📬 Contact
+
 Ayesha Emaan
+
 💼 Web Developer | Python Developer
+
 📧 emaanayesha50@gmail.com
