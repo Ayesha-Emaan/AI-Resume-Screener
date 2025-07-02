@@ -56,10 +56,3 @@ JavaScript
 Ayesha Emaan
 💼 Web Developer | Python Developer
 📧 emaanayesha50@gmail.com
-
-📬 Contact
-Ayesha Emaan
-💼 Web Developer | Python Developer
-📧 emaanayesha50@gmail.com
-
-
