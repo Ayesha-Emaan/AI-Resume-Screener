@@ -34,7 +34,7 @@ resume-screener/
 ## 🧪 Installation (Local)
 
 
-git clone https://github.com/Ayesha-Emaan/resume-screener.git
+git clone https://github.com
 
 cd resume-screener
 
